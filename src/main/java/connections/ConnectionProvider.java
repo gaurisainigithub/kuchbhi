@@ -29,6 +29,7 @@ public static Connection getConnection()
 		catch(Exception e)
 		{
 			e.printStackTrace();
+			e.getMessage();
 		}
 	}
 	else
